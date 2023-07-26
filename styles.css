@@ -1273,7 +1273,9 @@ height: 100%;
   .about-me__info--para {
     font-size: 18px;
   }
-
+  .project{
+    margin-bottom: 50px;
+  }
   .language {
     width: calc(100% / 3);
   }
@@ -1281,7 +1283,6 @@ height: 100%;
   .project__description--para {
     font-size: 10px;
 
-    
   }
   .project__description--title {
     font-size: 10px;
@@ -1296,23 +1297,14 @@ height: 100%;
 @media (max-width: 480px) {
   
 
-  .loader {
-    position: relative;
-    width: 120px;
-    height: 90px;
-    background-color: #ffffff;
-    border-radius: 9px;
-  }
-
   .about-me__picture--mask{
     width: 100px;
     height: 100px;
   }
 
-  .project__wrapper {
-    border-radius: 0;
+  .project{
+    margin-bottom: 50px;
   }
-
   .project__description {
     padding: 0;
     left: 0;
