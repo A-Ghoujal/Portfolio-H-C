@@ -832,6 +832,10 @@ height: 100%;
   .burger-icon::after {
     bottom: -8px;
   }
+
+  .project__description--title {
+    font-size: 20px;
+  }
   
 }
 
@@ -858,9 +862,13 @@ height: 100%;
   }
 
   .project__description--para {
-    font-size: 14px;
-  }
+    font-size: 10px;
 
+    
+  }
+  .project__description--title {
+    font-size: 10px;
+  }
   .project__description {
     left: 30px;
     padding-right: 30px;
@@ -904,7 +912,7 @@ height: 100%;
   }
 
   .project__description--title {
-    font-size: 32px;
+    font-size: 15px;
     line-height: 1;
     text-align: center;
   }
