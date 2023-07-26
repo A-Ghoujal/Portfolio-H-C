@@ -119,7 +119,7 @@ document.addEventListener("DOMContentLoaded", function() {
     
     setTimeout(() => {
       animateImage();
-    }, 5000);
+    }, 7000);
   }
 
 
