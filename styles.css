@@ -76,9 +76,8 @@ li {
 }
 .row {
   width: 100%;
-  max-width: 800px;
   margin: 0 auto;
-  padding: 0 12px;
+  padding: 0 ;
 }
 
 .text--purple {
@@ -225,6 +224,7 @@ nav {
 .about-me__info {
   display: flex;
   flex-direction: column;
+  
 }
 
 .about-me__info--container {
@@ -232,7 +232,7 @@ nav {
   flex-direction: column;
   align-items: center;
   max-width: 600px;
-  margin: 0 auto;
+  margin: 2rem auto;
   text-align: center;
 }
 
@@ -305,14 +305,17 @@ nav {
   flex: 1;
   display: flex;
   align-items: center;
-  background-image: url("./assets/pngwing.com\ \(4\).png");
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: fixed;
-  
 }
-
+.about-me__video{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  margin: -20% 0;
+}
 .about-me__img--container .about-me__img {
  
   width: 100%;
@@ -416,6 +419,9 @@ nav {
   border-radius: 20px;
   overflow: hidden;
   position: relative;
+  width: 90%;
+  text-align: center;
+  margin: 0 auto;
 }
 .project__wrapper:before {
   content: "";
