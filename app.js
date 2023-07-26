@@ -1,3 +1,5 @@
+// burger menu
+
 document.addEventListener("DOMContentLoaded", function () {
     const burgerMenu = document.querySelector(".burger-menu");
     const navLinks = document.querySelector(".nav__link--list");
@@ -16,7 +18,7 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   });
-
+// hamster
 
 const wheelAndHamster = document.createElement("div");
 wheelAndHamster.setAttribute("aria-label", "Orange and tan hamster running in a metal wheel");
@@ -91,3 +93,35 @@ wheelAndHamster.appendChild(spoke);
 
 const hamsterContainer = document.getElementById("hamster-container");
 hamsterContainer.appendChild(wheelAndHamster);
+
+// mort
+document.addEventListener("DOMContentLoaded", function() {
+  const movingImage = document.getElementById("moving-image");
+  const imageContainer = document.getElementById("image-container");
+  const imageWidth = 100; 
+
+  function getRandomPosition(max) {
+    return Math.floor(Math.random() * max) + "px";
+  }
+
+  function animateImage() {
+    
+    const randomPosition = getRandomPosition(window.innerHeight - imageWidth);
+    movingImage.style.top = randomPosition;
+    movingImage.style.right = "0";
+    movingImage.style.display = "block";
+
+   
+    setTimeout(() => {
+      movingImage.style.right = "-200px"; 
+    }, 1000);
+
+    
+    setTimeout(() => {
+      animateImage();
+    }, 5000);
+  }
+
+
+  animateImage();
+});
