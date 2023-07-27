@@ -593,11 +593,6 @@ nav {
   height: 100%;
   object-fit: cover;
 }
-.about-me__picture {
-  width: 100%;
-  transform: scale(1.5);
-  padding-top: 8px;
-}
 
 .about-me__info--title {
   margin-bottom: 16px;
