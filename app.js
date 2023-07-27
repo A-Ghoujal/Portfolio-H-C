@@ -125,3 +125,11 @@ document.addEventListener("DOMContentLoaded", function() {
 
   animateImage();
 });
+
+
+// cv icon 
+
+OnlineWebFonts_Com({
+  'Id':'.cv-icon',
+  'Data':__Animations['571171'],
+}).Play();

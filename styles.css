@@ -997,13 +997,11 @@ height: 100%;
   transition: .2s ease-in-out;
 }
 
-.Resume {
-  margin-top: 1.7em;
-  margin-left: -1.2em;
-  fill: #8c9eff;
-  height:30px;
-   width : 30px;
-    
+.cv-icon{
+  margin-top: 1.3em;
+  margin-left: -1em;
+  width:40px;
+   height:40px;
 }
 
 .card1:hover {
@@ -1039,13 +1037,8 @@ height: 100%;
 .card4:hover {
   cursor: pointer;
   scale: 1.1;
-  background-color: #8c9eff;
+  background-color: #ff4343;
 }
-
-.card4:hover .Resume {
-  fill: white;
-}
-
 
 .nav__link--list {
   display: flex;
