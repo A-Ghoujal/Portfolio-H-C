@@ -143,8 +143,8 @@ OnlineWebFonts_Com({
 
 let typed = new Typed(".auto-type" , {
   strings: [ " Web Developer", " Designer", " Frontend Developer"],
-  typeSpeed: 150,
-  backSpeed: 150,
+  typeSpeed: 170,
+  backSpeed: 170,
   loop: true
   
 });
