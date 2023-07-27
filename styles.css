@@ -939,13 +939,11 @@ height: 100%;
 
 }
 
-.certification {
-  margin-top: 3em;
-  margin-left: 1.2em;
-  fill: #c4ad00;
-  width:30px;
-   height:30px;
-    fill-rule:nonzero;
+.crf-icon{
+  margin-top: 2.7em;
+  margin-left: 1em;
+  width:40px;
+   height:40px;
 }
 
 .card2 {
@@ -1008,10 +1006,6 @@ height: 100%;
   cursor: pointer;
   scale: 1.1;
   background-color: #c4ad00;
-}
-
-.card1:hover .certification {
-  fill: white;
 }
 
 .card2:hover {

@@ -133,3 +133,8 @@ OnlineWebFonts_Com({
   'Id':'.cv-icon',
   'Data':__Animations['571171'],
 }).Play();
+
+OnlineWebFonts_Com({
+  'Id':'.crf-icon',
+  'Data':__Animations['490831'],
+}).Play();
