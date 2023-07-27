@@ -37,6 +37,10 @@ i:hover {
 
 /* hamster  */
 
+#hamster-container{
+  margin-top: 1.5rem;
+  margin-left: 1.5rem;
+}
 .wheel-and-hamster {
   --dur: 1s;
   position: relative;
@@ -1066,6 +1070,7 @@ height: 100%;
     font-size: 20px;
   }
   
+  
 }
 
 /* Small phones, tablets, large smartphones */
@@ -1102,6 +1107,10 @@ height: 100%;
   .project__description {
     left: 30px;
     padding-right: 30px;
+  }
+  #hamster-container{
+    margin-top: 3rem;
+    margin-left: 1.5rem;
   }
 }
 
@@ -1141,5 +1150,9 @@ height: 100%;
   .project__description--sub-title {
     text-align: center;
     margin: 12px 0;
+  }
+  #hamster-container{
+    margin-top: 3rem;
+    margin-left: 1.5rem;
   }
 }
