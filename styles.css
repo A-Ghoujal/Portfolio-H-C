@@ -403,7 +403,7 @@ nav {
 }
 
 /* mort */
-#image-container {
+/* #image-container {
   position: fixed;
   overflow: hidden;
   top: 0;
@@ -419,7 +419,7 @@ nav {
   height: auto; 
   rotate: -45deg;
   transition: right 0.3s ease-in-out, transform 1s ease-in-out; 
-}
+} */
 
 
 @keyframes loading-bounce {
