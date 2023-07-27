@@ -341,6 +341,7 @@ li {
 
 .text--purple {
   color: #bd7004ef;
+  font-weight: bold;
 }
 
 section:nth-child(even) {

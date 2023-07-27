@@ -138,3 +138,13 @@ OnlineWebFonts_Com({
   'Id':'.crf-icon',
   'Data':__Animations['490831'],
 }).Play();
+
+// typing
+
+let typed = new Typed(".auto-type" , {
+  strings: [ " Web Developer", " Designer", " Frontend Developer"],
+  typeSpeed: 150,
+  backSpeed: 150,
+  loop: true
+  
+});
