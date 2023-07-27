@@ -378,9 +378,9 @@ nav {
   cursor: pointer;
   width: 100px;
   height: 40px;
-  background-image: linear-gradient(to top, #D8D9DB 0%, #fff 80%, #FDFDFD 100%);
+  background-image: linear-gradient(to top, #bd7004ef 0%, #fff 80%, #FDFDFD 100%);
   border-radius: 30px;
-  border: 1px solid #8F9092;
+  border: 2px solid #8F9092;
   transition: all 0.2s ease;
   font-family: "Source Sans Pro", sans-serif;
   font-size: 14px;
@@ -399,39 +399,6 @@ nav {
 
 .nav__link--anchor:focus {
   box-shadow: 0 4px 3px 1px #FCFCFC, 0 6px 8px #D6D7D9, 0 -4px 4px #CECFD1, 0 -6px 4px #FEFEFE, inset 0 0 5px 3px #999, inset 0 0 30px #aaa;
-}
-
-.loader {
-  position: relative;
-  width: 122.5px;
-  height: 90px;
-  background-color: #ffffff;
-  border-radius: 9px;
-  z-index: -2;
-}
-
-.loader:before {
-  content: "";
-  position: absolute;
-  bottom: 30px;
-  left: 50px;
-  height: 30px;
-  width: 30px;
-  border-radius: 50%;
-  background: #6030b1;
-  animation: loading-bounce 0.5s ease-in-out infinite alternate;
-}
-
-.loader:after {
-  content: "";
-  position: absolute;
-  right: 0;
-  top: 0;
-  height: 7px;
-  width: 45px;
-  border-radius: 4px;
-  box-shadow: 0 5px 0 #f2f2f2, -35px 50px 0 #f2f2f2, -70px 95px 0 #f2f2f2;
-  animation: loading-step 1s ease-in-out infinite;
 }
 
 /* mort */
