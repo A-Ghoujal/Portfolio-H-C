@@ -1155,11 +1155,11 @@ height: 100%;
     border-radius: 10px;
     gap: 2rem;
     backdrop-filter: blur(10px);
-  background-color: rgba(255, 255, 255, 0.12);
-  left: 50%;
-  top: 500%;
-  transform: translate(-50%, -50%);
-  z-index: 3;
+   background-color: rgba(255, 255, 255, 0.12);
+   left: 50%;
+   top: 500%;
+   transform: translate(-50%, -50%);
+   z-index: 3;
   }
   
   .background-blur {
