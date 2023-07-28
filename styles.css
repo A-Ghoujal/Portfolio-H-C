@@ -27,7 +27,7 @@ p {
 
 a {
   text-decoration: none;
-  position: relative;
+  
   transition: opacity 300ms ease;
 }
 
@@ -363,6 +363,11 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 0;
+  opacity: 0;
+  transform: translateY(-20px);
+  transition: opacity 1s ease-in, transform 1s ease-in;
+
+
 }
 
 .nav__link--list {
@@ -610,6 +615,7 @@ nav {
   font-size: 20px;
   color: #242424;
   padding: 0 16px;
+  
 }
 
 .about-me__links {
@@ -697,6 +703,7 @@ nav {
 .wave {
   display: inline-block;
   animation: animate-wave 500ms infinite ease-in-out;
+  margin-left: 8px;
 }
 
 @keyframes animate-wave {
@@ -1136,48 +1143,96 @@ height: 100%;
   }
 
   .nav__link--list.show {
-    display: flex; 
+    display: flex;
     flex-direction: column;
-    background-color: #f8f8f8; 
+    align-items: center;
+    justify-content: center;
     position: absolute;
-    top: 0px;
-    right: 0;
-    padding: 10px;
-    gap: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    z-index: 9; 
+    z-index: 2;
+    width: fit-content;
+    height: fit-content;
+    padding: 20px;
+    border-radius: 10px;
+    gap: 2rem;
+    backdrop-filter: blur(10px);
+  background-color: rgba(255, 255, 255, 0.12);
+  left: 50%;
+  top: 500%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
   }
-
+  
+  .background-blur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: transparent;
+    filter: blur(10px);
+    z-index: -1;
+    border-radius: 10px;
+  }
+   
   .burger-menu {
     cursor: pointer;
+    position: relative;
+  }
+  
+  #wave-emoji {
+    animation: none;
   }
 
-  .burger-icon {
-    width: 32px;
-    height: 5px;
-    background-color: #030303;
-    margin: 15px;
-    position: relative;
-    border: #000 1px solid;
-  }
-  
-  .burger-icon::before,
-  .burger-icon::after {
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 5px;
-    background-color: #000000;
-  }
-  
-  .burger-icon::before {
-    top: -8px;
-  }
-  
-  .burger-icon::after {
-    bottom: -8px;
-  }
+  /* Styling for the burger menu icon */
+.burger-icon {
+  position: relative;
+  width: 30px;
+  height: 24px;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+  margin-right: 1.5rem;
+}
+
+.bar {
+  position: absolute;
+  width: 100%;
+  height: 3px;
+  background-color: #333; /* You can change the color as desired */
+  border-radius: 2px;
+  transition: transform 0.3s ease;
+}
+
+.bar:nth-child(1) {
+  top: 0;
+}
+
+.bar:nth-child(2) {
+  top: 10px;
+}
+
+.bar:nth-child(3) {
+  top: 20px;
+}
+
+/* Styling for the active state of the burger menu icon (when menu is open) */
+.burger-icon.active .bar:nth-child(1) {
+  top: 10px;
+  transform: rotate(45deg);
+}
+
+.burger-icon.active .bar:nth-child(2) {
+  opacity: 0;
+}
+
+.burger-icon.active .bar:nth-child(3) {
+  top: 10px;
+  transform: rotate(-45deg);
+}
+
+/* Additional styling for the burger icon - Optional */
+.burger-menu {
+  margin-left: 20px; /* Adjust as needed */
+}
 
   .project__description--title {
     font-size: 20px;
@@ -1221,10 +1276,10 @@ height: 100%;
     left: 30px;
     padding-right: 30px;
   }
-  #hamster-container{
+  /* #hamster-container{
     margin-top: 3rem;
     margin-left: 1.5rem;
-  }
+  } */
 }
 
 /* SMALL PHONES */
@@ -1264,8 +1319,8 @@ height: 100%;
     text-align: center;
     margin: 12px 0;
   }
-  #hamster-container{
+  /* #hamster-container{
     margin-top: 3rem;
     margin-left: 1.5rem;
-  }
+  } */
 }

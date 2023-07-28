@@ -18,7 +18,28 @@ document.addEventListener("DOMContentLoaded", function () {
       }
     });
   });
+
+  document.addEventListener('DOMContentLoaded', function () {
+    const burgerIcon = document.querySelector('.burger-icon');
+    burgerIcon.addEventListener('click', function () {
+      burgerIcon.classList.toggle('active');
+    });
+  });
+
+  // nav bar animation
+  
+document.addEventListener('DOMContentLoaded', function () {
+  const nav = document.querySelector('nav');
+  function showNavBar() {
+    nav.style.opacity = '1';
+    nav.style.transform = 'translateY(0)';
+  }
+  setTimeout(showNavBar, 500);
+});
+
+
 // hamster
+
 
 // const wheelAndHamster = document.createElement("div");
 // wheelAndHamster.setAttribute("aria-label", "Orange and tan hamster running in a metal wheel");
