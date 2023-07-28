@@ -10,13 +10,6 @@ document.addEventListener("DOMContentLoaded", function () {
       event.stopPropagation(); 
     });
 
-   
-    document.addEventListener("click", function (event) {
-      if (!navLinks.contains(event.target) && !burgerMenu.contains(event.target)) {
-        navLinks.classList.remove("show");
-        burgerMenu.classList.remove("show");
-      }
-    });
   });
 
   document.addEventListener('DOMContentLoaded', function () {
