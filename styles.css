@@ -1130,6 +1130,23 @@ height: 100%;
   justify-content: flex-end; 
 }
 
+/* visitor counter */
+
+.visitors-count{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: #fff;
+  gap: 1rem;
+  border-radius: 10px;
+  padding: 0.5rem 1rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+
 /* Styles for burger menu for mobile screens */
 @media (max-width: 768px) {
   .nav__wrapper {
