@@ -162,3 +162,16 @@ let typed = new Typed(".auto-type" , {
   loop: true
   
 });
+
+
+ 
+// come back title when user leaves the page :DDD
+
+let docTitle = document.title;
+window.addEventListener('blur', () => {
+  document.title = 'Come back plz! :( ';
+});
+
+window.addEventListener('focus', () => {
+  document.title = docTitle;
+});
