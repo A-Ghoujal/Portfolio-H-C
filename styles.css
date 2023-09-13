@@ -1249,7 +1249,7 @@ height: 100%;
 /* Additional styling for the burger icon */  
 
 .burger-menu {
-  margin-left: 20px; /* Adjust as needed */
+  margin-left: 20px;
 }
 
   .project__description--title {
@@ -1293,10 +1293,6 @@ height: 100%;
     left: 30px;
     padding-right: 30px;
   }
-  /* #hamster-container{
-    margin-top: 3rem;
-    margin-left: 1.5rem;
-  } */
 }
 
 /* SMALL PHONES */
@@ -1336,8 +1332,4 @@ height: 100%;
     text-align: center;
     margin: 12px 0;
   }
-  /* #hamster-container{
-    margin-top: 3rem;
-    margin-left: 1.5rem;
-  } */
 }
