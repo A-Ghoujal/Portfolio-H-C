@@ -720,11 +720,23 @@ nav {
 
 /* TECH - STACK */
 
-.language__img {
+.language__img ,.animate__languages__img  {
   width: 100%;
   max-width: 100px;
   transition: all 300ms;
+  animation: rotate 0.7s ease-in-out both;
 }
+
+@keyframes rotate {
+  0% {
+    transform: rotate(0);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
 .language:hover .language__img {
   filter: brightness(80%);
   opacity: 0.86;
