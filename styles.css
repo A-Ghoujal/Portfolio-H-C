@@ -974,6 +974,7 @@ height: 100%;
 }
 
 /* Small phones, tablets, large smartphones */
+
 @media (max-width: 768px) {
   nav {
     height: 68px;
